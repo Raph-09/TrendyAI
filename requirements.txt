@@ -1,7 +1,7 @@
 crewai 
 langchain-google-genai 
 langchain 
-streamlit l
-angchain-community 
+streamlit 
+langchain-community 
 python-dotenv
 
