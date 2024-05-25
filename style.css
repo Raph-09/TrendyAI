@@ -1,0 +1,21 @@
+[data-testid="stApp"] {
+  background-image: url("https://cdn.pixabay.com/photo/2023/09/03/09/03/ai-generated-8230179_1280.jpg");
+  backgound-color: rgba(255 255 255 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+[data-sider-select-id="e620ff85-f48b-444c-b3b2-013ad6a822fa"] {
+  color: black;
+}
+
+[data-testid="StyledLinkIconContainer"] {
+  color: black;
+  text-style: bold;
+}
+
+[data-testid="stMarkdownContainer"] {
+  color: black;
+}
+
+
