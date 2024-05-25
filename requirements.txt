@@ -1,6 +1,7 @@
-crewai
-langchain
-langchain_community
-langchain_google_genai
+crewai 
+langchain-google-genai 
+langchain 
+streamlit l
+angchain-community 
 python-dotenv
-streamlit
+
