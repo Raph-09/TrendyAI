@@ -1,7 +1,6 @@
-langchain-community
-langchain
 crewai
-duckduckgo-search
-gradio
-langchain-core
+langchain
+langchain_community
 langchain_google_genai
+python-dotenv
+streamlit
