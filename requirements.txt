@@ -4,5 +4,5 @@ langchain-community
 langchain_google_genai
 python-dotenv
 streamlit
-SQLite > 3.35
+SQLite
 
