@@ -3,17 +3,17 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.agents import Tool
 import streamlit as st
 from langchain_community.tools.tavily_search import TavilySearchResults
-from dotenv import find_dotenv, load_dotenv
+from dotenv import load_dotenv
+load_dotenv()
 
-dotenv_path = find_dotenv()
-load_dotenv(dotenv_path)
 
 llm = ChatGoogleGenerativeAI(
         model="gemini-pro",
         verbose=True,
-        temperature=0.4
+        temperature=0.4,
+        google_api_key=os.getenv("GOOGLE_API_KEY")
     )
-
+os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY")
 search_tool = TavilySearchResults()
    
 
